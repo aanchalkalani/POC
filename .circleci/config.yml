@@ -19,4 +19,4 @@ jobs:
           command: fastlane scan
           environment:
             SCAN_DEVICE: iPhone 7
-            SCAN_SCHEME: POC CircleCL
+            SCAN_SCHEME: WebTests
