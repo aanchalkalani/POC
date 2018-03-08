@@ -16,3 +16,9 @@ jobs:
       # Build the app and run tests
       - run: echo "hello world"
       
+       - run:
+          name: Run tests
+          command: fastlane scan
+          environment:
+            SCAN_DEVICE: iPhone 6
+            SCAN_SCHEME: WebTests
