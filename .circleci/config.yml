@@ -14,5 +14,5 @@ jobs:
       - checkout
 
       # Build the app and run tests
-             - run: echo "hello world"
+      - run: echo "hello world"
 
