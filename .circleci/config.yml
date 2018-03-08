@@ -20,6 +20,3 @@ jobs:
           environment:
             SCAN_DEVICE: iPhone 7
             SCAN_SCHEME: WebTests
-
-      # Build the app and run tests
-      - run: echo "hello world"
