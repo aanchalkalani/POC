@@ -21,6 +21,4 @@ jobs:
             SCAN_DEVICE: iPhone 6
             SCAN_SCHEME: WebTests
       
-      # Build the app and run tests
-        - run: echo "hello world"
-      
+     
