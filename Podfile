@@ -6,7 +6,5 @@ target 'POC CircleCL' do
   use_frameworks!
 
   # Pods for POC CircleCL
-	pod 'Firebase/Core'
-	pod 'Firebase/Auth'
-	pod 'FirebaseUI'
+	pod "MIBadgeButton-Swift"
 end
