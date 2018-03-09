@@ -12,13 +12,12 @@ jobs:
 
     steps:
       - checkout
-
       - run:
           name: Install CocoaPods
           command: pod install --verbose
           
-       - run:
-          name: Run tests
+      - run:
+          name: Build and Run tests
           command: fastlane scan
           environment:
             SCAN_DEVICE: iPhone 6
