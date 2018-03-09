@@ -12,7 +12,18 @@
 		870CD25620511CC800CA0C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870CD25420511CC800CA0C8A /* Main.storyboard */; };
 		870CD25820511CC800CA0C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870CD25720511CC800CA0C8A /* Assets.xcassets */; };
 		870CD25B20511CC800CA0C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870CD25920511CC800CA0C8A /* LaunchScreen.storyboard */; };
+		87244ACC205294C300518B73 /* POC_CircleCLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87244ACB205294C300518B73 /* POC_CircleCLUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87244ACE205294C400518B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870CD24520511CC800CA0C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870CD24C20511CC800CA0C8A;
+			remoteInfo = "POC CircleCL";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		870CD24D20511CC800CA0C8A /* POC CircleCL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC CircleCL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +33,20 @@
 		870CD25720511CC800CA0C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		870CD25A20511CC800CA0C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		870CD25C20511CC800CA0C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87244AC9205294C300518B73 /* POC CircleCLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC CircleCLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87244ACB205294C300518B73 /* POC_CircleCLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_CircleCLUITests.swift; sourceTree = "<group>"; };
+		87244ACD205294C400518B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		870CD24A20511CC800CA0C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87244AC6205294C300518B73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				870CD24F20511CC800CA0C8A /* POC CircleCL */,
+				87244ACA205294C300518B73 /* POC CircleCLUITests */,
 				870CD24E20511CC800CA0C8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				870CD24D20511CC800CA0C8A /* POC CircleCL.app */,
+				87244AC9205294C300518B73 /* POC CircleCLUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +85,15 @@
 				870CD25C20511CC800CA0C8A /* Info.plist */,
 			);
 			path = "POC CircleCL";
+			sourceTree = "<group>";
+		};
+		87244ACA205294C300518B73 /* POC CircleCLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87244ACB205294C300518B73 /* POC_CircleCLUITests.swift */,
+				87244ACD205294C400518B73 /* Info.plist */,
+			);
+			path = "POC CircleCLUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +116,24 @@
 			productReference = 870CD24D20511CC800CA0C8A /* POC CircleCL.app */;
 			productType = "com.apple.product-type.application";
 		};
+		87244AC8205294C300518B73 /* POC CircleCLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87244AD2205294C400518B73 /* Build configuration list for PBXNativeTarget "POC CircleCLUITests" */;
+			buildPhases = (
+				87244AC5205294C300518B73 /* Sources */,
+				87244AC6205294C300518B73 /* Frameworks */,
+				87244AC7205294C300518B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87244ACF205294C400518B73 /* PBXTargetDependency */,
+			);
+			name = "POC CircleCLUITests";
+			productName = "POC CircleCLUITests";
+			productReference = 87244AC9205294C300518B73 /* POC CircleCLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +148,12 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = K5Y293EDC2;
 						ProvisioningStyle = Automatic;
+					};
+					87244AC8205294C300518B73 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K5Y293EDC2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 870CD24C20511CC800CA0C8A;
 					};
 				};
 			};
@@ -115,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				870CD24C20511CC800CA0C8A /* POC CircleCL */,
+				87244AC8205294C300518B73 /* POC CircleCLUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +187,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87244AC7205294C300518B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,7 +206,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87244AC5205294C300518B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87244ACC205294C300518B73 /* POC_CircleCLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87244ACF205294C400518B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870CD24C20511CC800CA0C8A /* POC CircleCL */;
+			targetProxy = 87244ACE205294C400518B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		870CD25420511CC800CA0C8A /* Main.storyboard */ = {
@@ -283,6 +363,32 @@
 			};
 			name = Release;
 		};
+		87244AD0205294C400518B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K5Y293EDC2;
+				INFOPLIST_FILE = "POC CircleCLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.honeykomb.POC-CircleCLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "POC CircleCL";
+			};
+			name = Debug;
+		};
+		87244AD1205294C400518B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K5Y293EDC2;
+				INFOPLIST_FILE = "POC CircleCLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.honeykomb.POC-CircleCLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "POC CircleCL";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,6 +406,15 @@
 			buildConfigurations = (
 				870CD26020511CC800CA0C8A /* Debug */,
 				870CD26120511CC800CA0C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87244AD2205294C400518B73 /* Build configuration list for PBXNativeTarget "POC CircleCLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87244AD0205294C400518B73 /* Debug */,
+				87244AD1205294C400518B73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
