@@ -36,6 +36,7 @@
 		87244AC9205294C300518B73 /* POC CircleCLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC CircleCLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87244ACB205294C300518B73 /* POC_CircleCLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_CircleCLUITests.swift; sourceTree = "<group>"; };
 		87244ACD205294C400518B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DE52B62269F43F568C4C7A /* Pods_POC_CircleCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POC_CircleCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +57,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31E0B35AC8398744C33AECEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2DE52B62269F43F568C4C7A /* Pods_POC_CircleCL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		870CD24420511CC800CA0C8A = {
 			isa = PBXGroup;
 			children = (
 				870CD24F20511CC800CA0C8A /* POC CircleCL */,
 				87244ACA205294C300518B73 /* POC CircleCLUITests */,
 				870CD24E20511CC800CA0C8A /* Products */,
+				31E0B35AC8398744C33AECEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -417,6 +427,7 @@
 				87244AD1205294C400518B73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
